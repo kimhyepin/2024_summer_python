@@ -72,7 +72,7 @@ print(result02)
 
 ### Enumerate & Zip
 
-Enumerate 란 ?
+* Enumerate 란 ?
 <br> 리스트의 값을 추출할 때 인덱스를 붙여 함꼐 출력하는 방법
 ```python
 for i, v in enumerate(['tic', 'tac', 'toe']) :
@@ -84,7 +84,7 @@ for i, v in enumerate(['tic', 'tac', 'toe']) :
 2 toe
 ```
 
-zip이란?
+* zip이란?
 <br> 두개의 list의 값을 병렬적으로 추출
 ```python
 result = [sum(x) for x in zip((1, 2, 3), (10, 20, 30), (100, 200, 300))]
